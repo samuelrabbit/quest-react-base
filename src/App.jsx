@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <CapsLock>Me deixe em CapsLock!</CapsLock>
-      <Button label="você clicou no botão"></Button>
+      <Button label="você clicou no botão!"></Button>
     </div>
   );
 }
