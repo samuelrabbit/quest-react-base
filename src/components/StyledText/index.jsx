@@ -1,8 +1,8 @@
-const CapsLock = (props) => {
+const StyledText = (props) => {
   const text = props.children;
   const textUppercase = text.toUpperCase();
 
   return <div style={{ color: "red" }}>{textUppercase}</div>;
 };
 
-export default CapsLock;
+export default StyledText;

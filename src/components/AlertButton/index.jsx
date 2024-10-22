@@ -1,4 +1,6 @@
-const Button = (props) => {
+import "./index.css";
+
+const AlertButton = (props) => {
   return (
     <button
       onClick={() => {
@@ -10,4 +12,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default AlertButton;
